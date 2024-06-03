@@ -1,0 +1,358 @@
+.modal-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+    z-index: 2;
+}
+
+.modal-container {
+    top: 0;
+    position: fixed;
+    z-index: 3;
+}
+
+
+.quiz-name-type {
+    background: white;
+    margin: 100px 500px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+    color: #757575
+}
+
+.quiz-name p {
+    text-align: center;
+    margin: 8px;
+}
+
+input::placeholder {
+    font-size: 25px;
+}
+
+.quiz-name-type input {
+    width: 438px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.quiz-name {
+    margin: 10px 26px;
+    width: 212px;
+    text-align: left;
+    font-size: 23px;
+    color: #757575
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons {
+    font-size: 18px;
+}
+
+.buttons button {
+    box-shadow: 0px 0px 5px grey;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    height: 35px;
+    margin: 14px 3px;
+    width: 133px;
+    font-size: 15px;
+    color: #757575;
+}
+
+.action-buttons button {
+    border: none;
+    border-radius: 10px;
+    width: 184px;
+    margin: 10px 33px;
+    height: 44px
+}
+
+.cancel {
+    box-shadow: 0px 0px 10px grey;
+    background-color: white;
+
+}
+
+.continue {
+    background-color: #60B84B;
+
+}
+
+div.inline-question {
+    width: 673px;
+    height: 50px;
+    top: 220px;
+    left: 311px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+input.inline-question {
+    size: 500px;
+}
+
+input.radio {
+    width: 19px;
+    height: 19px;
+    top: 441px;
+    left: 269px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 35px 10px 10px 10px;
+
+}
+
+div.question-option {
+    width: 845px;
+    height: 671px;
+    top: 83px;
+    left: 217px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+input.text {
+    width: 296px;
+    height: 45px;
+    top: 361px;
+    left: 311px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    margin: 10px 10px 10px 10px;
+    padding: 2px 2px;
+
+}
+
+input.optionradio {
+    width: 19px;
+    height: 19px;
+    top: 303px;
+    left: 499px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+p.optionfont {
+    width: 122px;
+    height: 30px;
+    top: 298px;
+    left: 329px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+label {
+    width: 42px;
+    height: 30px;
+    top: 298px;
+    left: 528px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.published {
+    width: 502px;
+    height: 118px;
+    top: 277px;
+    left: 415px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 58.5px;
+    text-align: center;
+
+}
+
+div.display-flex.button {
+    width: 648px;
+    height: 47px;
+    top: 466px;
+    left: 316px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+p.quiz-type {
+    width: 122px;
+    height: 38px;
+    top: 469px;
+    left: 316px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30.5px;
+    text-align: center;
+}
+
+
+.render,
+.first-render {
+    display: flex;
+}
+
+
+.add-button-div,
+.render-parent {
+    display: flex;
+}
+
+.add-button-div button {
+    width: 45px;
+    border-radius: 23px;
+    margin-inline: 6px;
+}
+
+.add-button,
+.delete-button {
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 18px !important;
+}
+
+
+.delete-button {
+    width: 15px;
+    height: 15px;
+    top: 126px;
+    left: 432px;
+    padding: 6.35px 5.44px 2.56px 3.46px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #ffffff;
+}
+
+.delete-button {
+    font-size: 9px;
+}
+
+.render-parent {
+    transform: translateX(-47px) !important;
+}
+
+
+.render-parent .add-button+.add-button {
+    display: none !important;
+}
+
+.render-parent .delete-button+.delete-button {
+    display: none !important;
+}
+
+.aa {
+    display: flex;
+    position: relative;
+    transform: translateY(-47px);
+
+}
+
+.bb {
+    height: 70px;
+}
+
+.optionType {
+    display: flex;
+}
+
+.optionType div {
+    transform: translateY(24px);
+}
+
+input[type="radio"] {
+    /* Hide the default radio button */
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked::after {
+    /* Style the checked state */
+    content: "";
+    background-color: #007bff;
+    border-radius: 50%;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+}
+
+.text {
+    margin-right: 10px;
+    width: 296px !important;
+}
+
+.qnaOptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio {
+    transform: translateY(-10px)
+}
+
+button.uil--trash-alt {
+    display: inline-block;
+    width: 70px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M10 18a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1M20 6h-4V5a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v1H4a1 1 0 0 0 0 2h1v11a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8h1a1 1 0 0 0 0-2M10 5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm7 14a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8h10Zm-3-1a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 60% 60%;
+    mask-size: 60% 60%;
+    background: #D60000;
+    margin: 10px 10px;
+
+  }
+
+ 
+  .custom-input {
+    width: 250px;
+  }
+  
+  .Shareable_link{
+    background-color: #EDEDED;
+    ;
+  }
+
+  .Share{
+    background: #60B84B;
+    ;
+  }
